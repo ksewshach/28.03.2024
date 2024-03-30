@@ -17,7 +17,7 @@ print(f'Введённая строка: {string}\nНовая строка: {tas
 
 # 4. Создайте функцию, которая принимает произвольное количество именованных аргументов и выводит их в порядке возрастания ключей.
 def task_four(**kwargs):
-    new_list = sorted(kwargs.values())
+    new_list = sorted(kwargs.keys())
     return new_list
 print(f'Отсортированный список: {task_four(g="4", u="63", i="865", d="12", n="0", k="76", l="3")}')
     
